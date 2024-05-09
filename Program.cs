@@ -60,7 +60,7 @@ namespace Projet_A3_LeYhuelic
             MySqlConnection maConnexion = null;
             try
             {
-                string connectionString = "SERVER=localhost;PORT=3306;DATABASE=Projet_SQL;UID=root;PASSWORD=Jesaisplus0.;";
+                string connectionString = "SERVER=localhost;PORT=3306;DATABASE=Projet_SQL;UID=root;PASSWORD=#TON MDP";
                 maConnexion = new MySqlConnection(connectionString);
                 maConnexion.Open();
             }
